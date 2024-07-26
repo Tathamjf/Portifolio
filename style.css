@@ -1,0 +1,22 @@
+
+:root {
+    --azul: #3C4553;
+    --branco: #D9D9D9;
+    --roxo: #7D00C9;
+}
+
+/*Reset de CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.banner {
+    height: 100vh;
+    background-color: var(--azul);
+}
