@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Londrina Shadow';
+    src: url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+    font-family: 'Andika';
+    src: url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Londrina+Shadow&display=swap');
+}
 
 :root {
     --azul: #3C4553;
@@ -14,9 +21,98 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 .banner {
     height: 100vh;
     background-color: var(--azul);
 }
+
+.banner img {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.sobre {
+    height: 100%;
+    background-color: var(--branco);
+    display: flex;
+}
+
+.sobre img {
+    width: 50%;
+    /* margin-left: 5%; */
+    margin-top: 15%;
+
+}
+
+.conteudo-sobre {
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.conteudo-sobre h1 {
+    padding: 10%;
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Londrina Shadow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.conteudo-sobre p {
+    font-size: 30px;
+    text-align: justify;
+    font-family: "Andika", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.education {
+    height: 100%;
+    background-color: var(--branco);
+    display: flex;
+    padding: 10%;
+
+}
+
+.conteudo-educ {
+    width: 40%;
+}
+
+.conteudo-educ h2 {
+    font-size: 100px;
+    font-family: 'Londrina Shadow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.education p {
+    font-size: 25px;
+    text-align: justify;
+    font-family: "Andika", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+.conteudo-curriculo {
+    margin-left: 15%;
+}
+
+.conteudo-curriculo h2 {
+    font-size: 80px;
+    font-family: 'Londrina Shadow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 40px;
+}
+
+.conteudo-curriculo p {
+    font-size: 20px;
+}
+
