@@ -101,10 +101,23 @@ html {
 
 
 .conteudo-curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-left: 15%;
 }
 
-.conteudo-curriculo h2 {
+.conteudo-curriculo img {
+    width: 40%;
+    margin-bottom: 90px;
+    margin-top: 60px;
+}
+
+.texto-curriculo {
+    text-align: center;
+}
+
+.texto-curriculo h2 {
     font-size: 80px;
     font-family: 'Londrina Shadow', sans-serif;
     font-weight: 400;
@@ -112,7 +125,8 @@ html {
     padding-bottom: 40px;
 }
 
-.conteudo-curriculo p {
+.texto-curriculo p {
     font-size: 20px;
+    text-align: justify;
 }
 
